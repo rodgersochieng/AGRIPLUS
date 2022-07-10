@@ -1,0 +1,60 @@
+header {
+    background-color: black;
+    margin:  10px;
+    display:
+}
+.logos {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.navbar {
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    color: white;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+.first {
+    background-color: #ED661F;
+    float: right;
+    margin-right: 120px;
+    padding: 15px 15px;
+    color: white;
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+#p1 {
+    margin-left: 90px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#p2 {
+    margin-left:90px;
+    font-weight: 300;
+    font-size: 20px;
+}
+#image0 {
+    margin-left: 700px;
+    margin-top: 10px;
+    display: flex;
+    margin-top: auto;
+}
+.part1 {
+    display: inline;
+}
+#Exp {
+    color: white;
+    background-color: #ED661F;
+    font-size: 30px;
+    margin-left: 90px ;
+    font-weight: bolder;
+    padding: 25px 25px;
+}
