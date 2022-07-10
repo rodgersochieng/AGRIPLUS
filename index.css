@@ -1,7 +1,6 @@
 header {
     background-color: black;
     margin:  10px;
-    display:
 }
 .logos {
     color: white;
@@ -42,19 +41,107 @@ header {
     font-size: 20px;
 }
 #image0 {
-    margin-left: 700px;
-    margin-top: 10px;
+    margin-left: 200px;
+    /* margin-top: 10px; */
+    /* flex-basis: 40%; */
+    /* display: flex; */
+    /* float: left; */
+}
+.whole {
     display: flex;
-    margin-top: auto;
+    align-items: center;
+    /* background-image: url( "https://drive.google.com/file/d/1JOplXxMfjtG7T2gNXmPHHva1tuf8jrXu/view?usp=sharing"); */
+    background-color: blue;
 }
-.part1 {
-    display: inline;
-}
+
 #Exp {
-    color: white;
+     color: white; 
     background-color: #ED661F;
     font-size: 30px;
     margin-left: 90px ;
     font-weight: bolder;
-    padding: 25px 25px;
+    padding: 25px 25px; 
+}
+body {
+    margin: 0;
+}
+.customer {
+    border: 2px solid grey;
+    display: flex;
+    float: right;
+   padding: 40px 30px;
+   margin-right: 300px;
+   list-style-type: none;
+   font-size: 20px;
+   background-color: white;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    justify-items: normal;
+}
+#caller {
+   margin-left: 900px;
+   margin-top: 0;
+}
+#we {
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 45px;
+}
+#built {
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: 200;
+}
+#ct {
+    margin-left: 800px;
+    font-size: 35px ;
+}
+#go {
+    margin-left: 800px;
+    font-weight: 200;
+}
+#most {
+    font-size: 45px;
+}
+#pic img {
+    height: 65%;
+    width: 65%;
+    padding: 10px;
+}
+#pic p {
+    padding: 10px;
+    line-height: 1.66%;
+}
+#pic {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#nw {
+    font-size: 45px;
+    margin-right: 2px;
+}
+#just {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#just img {
+    height: 65%;
+    width: 65%;
+    padding: 10px;
+}
+#just p {
+padding: 10px;
+line-height: 1.65%; 
+}
+#lastp {
+    float: left;
+    width: 27%;
+    padding: 20px;
+    box-sizing: border-box;
 }
