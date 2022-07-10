@@ -50,8 +50,9 @@ header {
 .whole {
     display: flex;
     align-items: center;
-    /* background-image: url( "https://drive.google.com/file/d/1JOplXxMfjtG7T2gNXmPHHva1tuf8jrXu/view?usp=sharing"); */
-    background-color: blue;
+    background: url("images/background.png");
+    background-size: contain;
+    /* background-color: blue; */
 }
 
 #Exp {
@@ -140,8 +141,14 @@ padding: 10px;
 line-height: 1.65%; 
 }
 #lastp {
-    float: left;
+    float: right;
     width: 27%;
     padding: 20px;
     box-sizing: border-box;
+    align-items: center;
 }
+#centa {
+    margin-right: 800px;
+}
+
+
